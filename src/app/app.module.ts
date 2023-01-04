@@ -27,7 +27,16 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 }
 
 @NgModule({
-	declarations: [AppComponent, HomePageComponent, SourcesPageComponent, LibraryPageComponent, SourceButtonComponent, SourcePageComponent, NovelCardComponent, NovelComponent],
+	declarations: [
+		AppComponent, 
+		HomePageComponent, 
+		SourcesPageComponent, 
+		LibraryPageComponent, 
+		SourceButtonComponent, 
+		SourcePageComponent, 
+		NovelCardComponent, 
+		NovelComponent
+	],
 	imports: [
 		BrowserModule,
 		FormsModule,
